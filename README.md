@@ -9,12 +9,10 @@ Should fix Ubuntu Bug https://bugs.launchpad.net/ubuntu/+source/linux/+bug/17646
 
 To use
 
+
 sudo apt install git build-essential dkms
-
-git clone https://github.com/jeremyb31/newbtfix-4.15.git
-
+git clone https://github.com/poseidon-j/newbtfix-4.15.git
 sudo dkms add ./newbtfix-4.15
-
 sudo dkms install btusb/4.0
 
 Reboot
